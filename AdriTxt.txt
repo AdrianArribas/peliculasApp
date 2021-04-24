@@ -1,0 +1,7 @@
+// ########## APIs INFO: 
+url: https://www.themoviedb.org/
+url api: https://api.themoviedb.org/3/
+apiKey: a3f8caae17040e98d613a644e463073b
+token v4 (auth): eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhM2Y4Y2FhZTE3MDQwZTk4ZDYxM2E2NDRlNDYzMDczYiIsInN1YiI6IjYwODE4MjQzYTFkMzMyMDAyOTAwNDljNiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.IVZtD_DwrGyv0K33FaGsAF0Fk7oMIU4V4qNQ_GmmuU4
+
+examples: https://www.themoviedb.org/documentation/api/discover
