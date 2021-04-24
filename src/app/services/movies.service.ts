@@ -6,6 +6,7 @@ import { environment } from '../../environments/environment.prod';
 @Injectable({
   providedIn: 'root'
 })
+
 export class MoviesService {
 
   public moviesUrl = environment.moviesUrl;
