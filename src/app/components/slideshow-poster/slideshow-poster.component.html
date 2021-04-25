@@ -1,0 +1,16 @@
+<ion-slides [options]="slideOpts">
+  <ion-slide *ngFor="let item of peliculas">
+    <ion-card class="card">
+
+      <ion-card-content>
+        <ion-img [src]="item.poster_path|imagen" [alt]="item.title" class="imgSlide">
+        </ion-img>
+        <p>{{item.title}}</p>
+        <p>estreno: {{item.release_date}}</p>
+        <p>Nota: {{item.vote_average}}</p>
+      </ion-card-content>
+    </ion-card>
+
+
+  </ion-slide>
+</ion-slides>

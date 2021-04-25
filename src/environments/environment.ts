@@ -5,7 +5,9 @@
 export const environment = {
   production: false,
   moviesUrl: 'https://api.themoviedb.org/3/',
-  moviesApiKey: 'a3f8caae17040e98d613a644e463073b'
+  moviesApiKey: 'a3f8caae17040e98d613a644e463073b',
+  imgPath: 'https://image.tmdb.org/t/p/',
+  dummyImg: '../assets/images/no-image-2.png',
 };
 
 /*

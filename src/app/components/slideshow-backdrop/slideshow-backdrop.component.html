@@ -1,0 +1,8 @@
+<ion-slides [options]="slideOpts">
+  <ion-slide *ngFor="let item of peliculas">
+
+    <ion-img [src]="item.backdrop_path|imagen" [alt]="item.title" class="imgSlide animate__animated animate__fadeIn">
+    </ion-img>
+
+  </ion-slide>
+</ion-slides>
